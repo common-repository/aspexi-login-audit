@@ -1,0 +1,298 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aspexi Login Audit\n"
+"POT-Creation-Date: 2017-07-11 12:46+0200\n"
+"PO-Revision-Date: 2017-07-11 12:46+0200\n"
+"Last-Translator: \n"
+"Language-Team: Aspexi <info@aspexi.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: aspexi-login-audit.php\n"
+
+#: aspexi-login-audit.php:97
+msgid "Aspexi Login Audit"
+msgstr ""
+
+#: aspexi-login-audit.php:119
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nie masz wystarczających uprawnień do przeglądania tej strony."
+
+#: aspexi-login-audit.php:123
+msgid "Missing Keep logs for days. Settings not saved."
+msgstr "Brak opcji zachowania logów na ilość dni. Ustawienia niezapisane."
+
+#: aspexi-login-audit.php:149
+#, fuzzy
+#| msgid "Settings"
+msgid "Settings saved."
+msgstr "Ustawienia"
+
+#: aspexi-login-audit.php:190
+msgid ""
+"IP blocking is available in PRO version only. Would you like to see more "
+"details?"
+msgstr ""
+"Blokowanie IP jest dostępne tylko w wersji PRO. Chcesz dowiedzieć się więcej?"
+
+#: aspexi-login-audit.php:193
+msgid ""
+"Exporting to CSV is available in PRO version only. Would you like to see "
+"more details?"
+msgstr ""
+"Eksportowanie do CSV jest dostępne tylko w wersji PRO. Chcesz dowiedzieć się "
+"więcej?"
+
+#: aspexi-login-audit.php:196
+msgid "Aspexi Login Audit Settings"
+msgstr "Ustawienia Aspexi Login Audit"
+
+#: aspexi-login-audit.php:198 aspexi-login-audit.php:611
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: aspexi-login-audit.php:199
+msgid "Email notifications"
+msgstr "Powiadomienia email"
+
+#: aspexi-login-audit.php:200
+msgid "Logs"
+msgstr "Logi"
+
+#: aspexi-login-audit.php:201
+msgid "Support"
+msgstr "Wsparcie"
+
+#: aspexi-login-audit.php:213
+msgid "Log information type"
+msgstr "Typ zapisywanych informacji"
+
+#: aspexi-login-audit.php:220 aspexi-login-audit.php:283
+msgid "Login Failed (Brute Force)"
+msgstr ""
+
+#: aspexi-login-audit.php:221 aspexi-login-audit.php:286
+msgid "User registration"
+msgstr "Rejestracja użytkownika"
+
+#: aspexi-login-audit.php:225
+msgid "Keep logs for"
+msgstr "Trzymaj logi przez"
+
+#: aspexi-login-audit.php:227
+msgid "days (set 0 to keep all logs)"
+msgstr "dni (0 - trzymaj wszystkie logi)"
+
+#: aspexi-login-audit.php:232
+msgid "Remove all data on plugin uninstall"
+msgstr "Usuń wszystkie dane podczas usuwania pluginu"
+
+#: aspexi-login-audit.php:243 aspexi-login-audit.php:319
+#, fuzzy
+#| msgid "Settings"
+msgid "Save settings"
+msgstr "Ustawienia"
+
+#: aspexi-login-audit.php:252
+msgid "Send email to the site admin"
+msgstr "Wyślij emaila do administratora strony"
+
+#: aspexi-login-audit.php:259
+msgid "Send notification email to the user who is logging in"
+msgstr "Wyślij emaila to użytkownika, który chciał się zalogować"
+
+#: aspexi-login-audit.php:262
+msgid "Notify user if role is"
+msgstr "Wyślij jeżeli rola użytkownika to"
+
+#: aspexi-login-audit.php:271
+msgid "Send email to (one email per line)"
+msgstr "Wyślij maila do (jeden email na linię)"
+
+#: aspexi-login-audit.php:279
+msgid "Send email information type"
+msgstr "Typ wysyłanej wiadomości"
+
+#: aspexi-login-audit.php:281
+msgid "Login Successful"
+msgstr "Logowanie prawidlowe"
+
+#: aspexi-login-audit.php:282
+msgid "Login Failed"
+msgstr "Logowanie nieprawidłowe"
+
+#: aspexi-login-audit.php:284
+msgid "Log out"
+msgstr "Wylogowanie"
+
+#: aspexi-login-audit.php:285
+msgid "Password reset"
+msgstr "Resetowanie hasła"
+
+#: aspexi-login-audit.php:291
+msgid "Success email"
+msgstr "Email prawidłowego logowania"
+
+#: aspexi-login-audit.php:293 aspexi-login-audit.php:301
+msgid "Title"
+msgstr "Tytuł"
+
+#: aspexi-login-audit.php:293 aspexi-login-audit.php:294
+#: aspexi-login-audit.php:301 aspexi-login-audit.php:302
+msgid "Available variables"
+msgstr "Dostępne zmienne"
+
+#: aspexi-login-audit.php:294 aspexi-login-audit.php:302
+msgid "Content"
+msgstr "Treść"
+
+#: aspexi-login-audit.php:299
+msgid "Error email"
+msgstr "Email nieprawidłowego logowania"
+
+#: aspexi-login-audit.php:307
+msgid "Email limit per hour"
+msgstr "Limit emaili na godzinę"
+
+#: aspexi-login-audit.php:323
+msgid "Any support queries or comments please send to"
+msgstr "Wszystkie pytania oraz komentarze prosimy kierować na"
+
+#: aspexi-login-audit.php:335 aspexi-login-audit.php:384
+#: aspexi-login-audit.php:435 aspexi-login-audit.php:462
+msgid "Status"
+msgstr "Status"
+
+#: aspexi-login-audit.php:343 aspexi-login-audit.php:385
+#: aspexi-login-audit.php:436 aspexi-login-audit.php:463
+msgid "User"
+msgstr "Użytkownik"
+
+#: aspexi-login-audit.php:344 aspexi-login-audit.php:359
+#: aspexi-login-audit.php:360 aspexi-login-audit.php:366
+msgid "Any"
+msgstr "Dowolny"
+
+#: aspexi-login-audit.php:359
+msgid "or"
+msgstr "lub"
+
+#: aspexi-login-audit.php:359
+msgid "Blocked"
+msgstr "Zablokowany"
+
+#: aspexi-login-audit.php:359
+msgid "Not Blocked"
+msgstr "Niezablokowany"
+
+#: aspexi-login-audit.php:359 aspexi-login-audit.php:390
+#: aspexi-login-audit.php:441 aspexi-login-audit.php:468
+msgid "Date"
+msgstr "Data"
+
+#: aspexi-login-audit.php:365
+msgid "Data"
+msgstr "Dane"
+
+#: aspexi-login-audit.php:367
+msgid "Aggregate by Status"
+msgstr "Wybierz po statusie"
+
+#: aspexi-login-audit.php:368
+msgid "Aggregate by User Name"
+msgstr "Wybierz po nazwie użytkownika"
+
+#: aspexi-login-audit.php:369
+msgid "Aggregate by User ID"
+msgstr "Wybierz po ID użytkownika"
+
+#: aspexi-login-audit.php:370
+msgid "Aggregate by User Email"
+msgstr "Wybierz po adresie email"
+
+#: aspexi-login-audit.php:371
+msgid "Aggregate by IP"
+msgstr "Wybierz po IP"
+
+#: aspexi-login-audit.php:372
+msgid "Filter"
+msgstr "Filtr"
+
+#: aspexi-login-audit.php:386 aspexi-login-audit.php:437
+#: aspexi-login-audit.php:464
+msgid "User email"
+msgstr "Email użytkownika"
+
+#: aspexi-login-audit.php:387 aspexi-login-audit.php:438
+#: aspexi-login-audit.php:465
+msgid "IP"
+msgstr "Adres IP"
+
+#: aspexi-login-audit.php:388 aspexi-login-audit.php:440
+#: aspexi-login-audit.php:466
+msgid "User agent"
+msgstr "Przeglądarka"
+
+#: aspexi-login-audit.php:389 aspexi-login-audit.php:439
+#: aspexi-login-audit.php:467
+msgid "HTTP Referer"
+msgstr ""
+
+#: aspexi-login-audit.php:437 aspexi-login-audit.php:438
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: aspexi-login-audit.php:452 aspexi-login-audit.php:478
+msgid "Export to CSV"
+msgstr "Eksportuj do CSV"
+
+#: aspexi-login-audit.php:473
+msgid "No data available yet."
+msgstr "Nie ma jeszcze żadnych danych."
+
+#: aspexi-login-audit.php:494
+#, php-format
+msgid ""
+"If you like %s please leave us a %s rating. A huge thank you in advance!"
+msgstr ""
+
+#: aspexi-login-audit.php:518
+msgid "Previous"
+msgstr "Wstecz"
+
+#: aspexi-login-audit.php:524
+msgid "Next"
+msgstr "Dalej"
+
+#: aspexi-login-audit.php:602
+msgid "Get PRO version"
+msgstr "Pobierz wersję PRO"
+
+#: aspexi-login-audit.php:883
+#, fuzzy
+#| msgid "IMPORTANT: All User stats records will be deleted"
+msgid "IMPORTANT: All Aspexi Login Audit users stats records will be deleted"
+msgstr "WAŻNE: Wszystkie statystyki użytkowników zostaną usunięte"
+
+#: aspexi-login-audit.php:883
+msgid "Delete all logs"
+msgstr "Usuń wszystkie logi"
+
+#: aspexi-login-audit.php:900
+msgid "Logs per page"
+msgstr "Ilość logów na stronę"
+
+#: aspexi-login-audit.php:900
+msgid "Apply"
+msgstr "Zastosuj"
+
+#~ msgid "Notification sent by Aspexi Login Audit WordPress Plugin"
+#~ msgstr "Powiadomienie wysłane przez plugin WordPress Aspexi Login Audit"

@@ -1,0 +1,73 @@
+.dashicons-tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.asp_tooltip {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    top: 20px;
+    background: #444;
+    padding: 10px;
+    width: 100px;
+}
+
+table#ala_logs td {
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.none {
+    display: none;
+}
+
+td[data-colname="User"] img {
+    float: left;
+}
+
+td[data-colname="User"] span {
+    font-size: 11px;
+}
+
+@media screen and (max-width: 782px) {
+    table#ala_logs thead {
+        display: none;
+    }
+
+    table#ala_logs td {
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        text-align: right;
+        margin: 0 10px;
+        padding-left: 100px !important;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    table#ala_logs td:last-child {
+        border: none;
+    }
+
+    table#ala_logs.widefat {
+        background: none;
+        border: none;
+
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
+    table#ala_logs tr {
+        border: 1px solid #e5e5e5;
+        float: left;
+        margin-bottom: 10px;
+        width: 100%;
+
+        box-shadow: 0 1px 1px rgba(0,0,0,.04);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    }
+
+    .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        font-weight: 700;
+        text-align: left;
+        text-transform: uppercase;
+    }
+}
